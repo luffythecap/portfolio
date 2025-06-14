@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Slider</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Swiper.js CSS & JS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <style>
+  .swiper-pagination-bullet {
+    background-color: #dc2626 !important; /* Tailwind red-600 */
+    opacity: 1;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: #b91c1c !important; /* Tailwind red-700 for active */
+  }
+</style>
+
+</head>
+<body class="bg-black text-white flex items-center justify-center h-screen">
+
+  <!-- Swiper Container -->
+  <div class="w-full max-w-6xl px-4  mt-14">
+    <div class="swiper mySwiper rounded-2xl overflow-hidden shadow-lg">
+      <div class="swiper-wrapper">
+
+        <!-- Slide 1 -->
+        <div class="swiper-slide flex justify-center items-center">
+          <img src="./image/Screenshot (68).png" class="max-h-[40rem] w-auto rounded-xl shadow-md" alt="Image 1" />
+        </div>
+        
+        <!-- Slide 2 -->
+        <div class="swiper-slide flex justify-center items-center">
+          <img src="./image/Screenshot (69).png" class="max-h-[40rem] w-auto rounded-xl shadow-md" alt="Image 3" />
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="swiper-slide flex justify-center items-center">
+          <img src="./image/Screenshot (70).png" class="max-h-[40rem] w-auto rounded-xl shadow-md" alt="Image 4" />
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="swiper-slide flex justify-center items-center">
+          <img src="./image/Screenshot (71).png" class="max-h-[40rem] w-auto rounded-xl shadow-md" alt="Image 5" />
+        </div>
+
+        <div class="swiper-slide flex justify-center items-center">
+          <img src="./image/Screenshot (72).png" class="max-h-[40rem] w-auto rounded-xl shadow-md" alt="Image 5" />
+        </div>
+
+        <div class="swiper-slide flex justify-center items-center">
+          <img src="./image/Screenshot (73).png" class="max-h-[40rem] w-auto rounded-xl shadow-md" alt="Image 5" />
+        </div>
+
+        <div class="swiper-slide flex justify-center items-center">
+          <img src="./image/Screenshot (74).png" class="max-h-[40rem] w-auto rounded-xl shadow-md" alt="Image 5" />
+        </div>
+
+      </div>
+
+      <!-- Navigation Buttons -->
+      <!-- Swiper Buttons -->
+
+      <!-- Pagination Dots -->
+      <!-- <div class="swiper-pagination mt-20"></div> -->
+      
+    </div>
+    <div class="swiper-pagination "></div>
+  </div>
+
+  <!-- Swiper Initialization -->
+  <script>
+    new Swiper(".mySwiper", {
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+</html>

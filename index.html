@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Who We Are</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .fade-in {
+      animation: fadeIn 1s ease-in forwards;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body class="bg-black text-white font-sans">
+
+  <section class="max-w-8xl mx-auto p-6 bg-cover bg-center bg-no-repeat min-h-screen" style="background-image: url('./images/aboutuss.png');">
+    <h2 class="text-4xl text-red-700 font-extrabold text-center mb-4 animate-fadeInUp">49Frame</h2>
+  <p class="text-lg text-white text-center mb-10 animate-fadeInUp delay-100">
+    our project
+  </p>
+
+  <!-- Mission & Vision Cards -->
+  <div class="grid md:grid-cols-2 gap-6 animate-fadeInUp delay-200">
+    
+    <!-- Mission Card -->
+    <div class="bg-white/20 backdrop-blur-xl rounded-3xl p-6 shadow-2xl border-2 border-red-700 hover:scale-[1.04] transition-transform duration-300">
+      <video autoplay loop muted playsinline
+  class="w-full h-48 sm:h-56 md:h-64 lg:h-80 object-contain  md:object-cover rounded-2xl shadow-md mb-4 transition-all duration-300 ease-in-out">
+  <source src="./video/Advertising Hypereel Video in Black White Simple Style.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+      <div class="text-xl text-white font-bold bg-red-600 px-6 py-2 rounded-full w-fit mb-4 shadow-md">
+        Real Estate
+      </div>
+      <p class="text-white text-lg leading-relaxed mb-4">
+        The application is based on the real estate domain and built using
+        <span class="inline-block bg-blue-600 px-3 py-1 rounded-full text-sm font-semibold mx-1 shadow-md">React Native</span>,
+        <span class="inline-block bg-pink-600 px-3 py-1 rounded-full text-sm font-semibold mx-1 shadow-md">Appwrite</span>, and
+        <span class="inline-block bg-cyan-600 px-3 py-1 rounded-full text-sm font-semibold mx-1 shadow-md">Tailwind CSS</span>.
+      </p>
+      <a href="./slider1.html" target="_blank">
+        <button class="mt-2 bg-red-700 hover:bg-red-800 text-white px-6 py-2 rounded-full transition duration-300 shadow-lg">
+          View
+        </button>
+      </a>
+    </div>
+
+    <!-- Vision Card -->
+    <div class="bg-white/20 backdrop-blur-xl rounded-3xl p-6 shadow-2xl border-2 border-red-700 hover:scale-[1.02] transition-transform duration-300">
+
+  <!-- Responsive Video -->
+  <video autoplay loop muted playsinline
+    class="w-full h-48 sm:h-56 md:h-64 lg:h-80 object-contain md:object-cover rounded-2xl shadow-lg mb-4 transition-all duration-300 ease-in-out">
+    <source src="./video/Cream Colorful Earth Rocket Illustration Vector World Book Day Video.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Title -->
+  <div class="text-lg sm:text-xl text-white font-bold bg-red-600 px-6 py-2 rounded-full w-fit mb-4 shadow-md">
+    Library Management System
+  </div>
+
+  <!-- Description -->
+  <p class="text-white text-base sm:text-lg leading-relaxed mb-4">
+    This Library Management System includes a borrowing and registration module. Built using
+    <span class="inline-block bg-green-600 text-white px-3 py-1 rounded-full text-sm font-semibold mx-1 shadow-sm">
+      Python
+    </span>.
+  </p>
+
+  <!-- View Button -->
+  <a href="./slider2.html" target="_blank">
+    <button
+      class="mt-2 bg-red-700 hover:bg-red-800 text-white px-6 py-2 rounded-full transition duration-300 shadow-lg">
+      View
+    </button>
+  </a>
+
+
+    </div>
+
+  </div>
+
+      <!-- Values & Slogan -->
+      <div class="grid md:grid-cols-3 gap-6 mt-8">
+    <!-- Values Card -->
+    <div class="bg-white/30 backdrop-blur-lg p-6 rounded-3xl shadow-lg border-4 border-red-700 md:col-span-2 transform transition duration-500 hover:scale-[1.02]">
+      <video autoplay loop muted playsinline
+  class="w-full h-48 sm:h-56 md:h-64 lg:h-[430px] object-contain  md:object-cover rounded-2xl shadow-md mb-4 transition-all duration-300 ease-in-out">
+  <source src="./video/Blue, Green and Black Minimalist Geometric All About Me Video.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+      <div class="text-xl text-white p-2 bg-red-600 w-45 rounded-full font-bold mb-2">
+        <h3 class="ml-4">company portfolio website</h3>
+      </div>
+      <p class="text-white text-lg leading-relaxed mb-4">
+        This company portfolio webpage
+        <span class="inline-block bg-orange-600 px-3 py-1 rounded-full text-sm font-semibold mx-1 shadow-md">html</span>,
+        <span class="inline-block bg-blue-600 px-3 py-1 rounded-full text-sm font-semibold mx-1 shadow-md">css</span>, and
+        <span class="inline-block bg-yellow-500 px-3 py-1 rounded-full text-sm font-semibold mx-1 shadow-md">javascript</span>.
+      </p>
+      <a href="https://luffythecap.github.io/webtricode/" target="_blank" rel="noopener noreferrer"
+   class="bg-red-700 text-white px-5 py-2 rounded-full font-semibold hover:bg-red-800 transition duration-300 inline-block">
+  Live Demo
+</a>
+
+    </div>
+
+    <!-- Slogan Card -->
+    <div class="bg-white/30 backdrop-blur-lg p-6 rounded-3xl shadow-lg text-center border-4 border-red-700 transform transition duration-500 hover:scale-[1.02]">
+      <video autoplay loop muted playsinline
+  class="w-full h-48 sm:h-56 md:h-64 lg:h-[430px] object-contain  md:object-cover rounded-2xl shadow-md mb-4 transition-all duration-300 ease-in-out">
+  <source src="./video/Yellow Futuristic Coming Soon Video.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+      <h3 class="text-2xl font-bold mb-2 text-red-400">"iphone web clone"</h3>
+      <p class="text-white text-lg leading-relaxed mb-4">
+        This is reference website which that we can do animation also 
+        <span class="inline-block bg-yellow-600 px-3 py-1 rounded-full text-sm font-semibold mx-1 shadow-md">react js</span>,</p>
+      <a href="./slider3.html" target="_blank">
+    <button
+      class="mt-2 bg-red-700 hover:bg-red-800 text-white px-6 py-2 rounded-full transition duration-300 shadow-lg">
+      View
+    </button>
+  </a>
+    </div>
+  </div>
+
+<div class="flex flex-col md:flex-row md:space-x-3 space-y-4 md:space-y-0 mt-8">
+    
+    <!-- Mission Card -->
+    <div class="flex-1 bg-white/30 backdrop-blur-lg p-6 rounded-3xl shadow-lg border-4 border-red-700 transform transition-all duration-500 hover:scale-[1.02]">
+      <video autoplay loop muted playsinline class="w-full h-60 object-cover rounded-3xl mb-4">
+        <source src="./video/Minimalist Happy Birthday Video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="text-xl text-white p-2 bg-red-600 w-60 rounded-full font-bold mb-2">
+        <h3 class="ml-4">enterprises template</h3>
+      </div>
+      <p class="text-white text-lg leading-relaxed mb-4">
+        This enterprises portfolio webpage
+        <span class="inline-block bg-orange-600 px-3 py-1 rounded-full text-sm font-semibold mx-1 shadow-md">html</span>,
+        <span class="inline-block bg-blue-600 px-3 py-1 rounded-full text-sm font-semibold mx-1 shadow-md">css</span>, and
+        <span class="inline-block bg-yellow-500 px-3 py-1 rounded-full text-sm font-semibold mx-1 shadow-md">javascript</span>.
+      </p>
+      <a href="https://luffythecap.github.io/yash-enterprises/"  target="_blank" rel="noopener noreferrer">
+        <button class="bg-red-700 text-white px-5 py-2 rounded-full font-semibold hover:bg-red-800 transition duration-300">
+          Live Demo
+        </button>
+      </a>
+    </div>
+
+    <!-- Vision Card -->
+    <div class="flex-[1.3] bg-white/30 backdrop-blur-lg p-6 rounded-3xl shadow-lg border-4 border-red-700 transform transition-all duration-500 hover:scale-[1.02]">
+      <video autoplay loop muted playsinline class="w-full h-96 object-cover rounded-3xl mb-4">
+        <source src="./video/Blue Geometric Gaming Stream Starting Soon Video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="text-xl text-white p-2 bg-red-600 w-70 rounded-full font-bold mb-2">
+        <h3 class="ml-4">gaming portfolio</h3>
+      </div>
+      <p class="text-white text-lg leading-relaxed mb-4">
+        This is reference website which that we can do animation also 
+        <span class="inline-block bg-yellow-600 px-3 py-1 rounded-full text-sm font-semibold mx-1 shadow-md">react js</span>,</p>
+      <a href="./slider4.html" target="_blank">
+        <button class="bg-red-700 text-white px-5 py-2 rounded-full font-semibold hover:bg-red-800 transition duration-300">
+          view
+        </button>
+      </a>
+    </div>
+
+  </div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+  <!-- Mission Card -->
+  <div class="bg-white/30 backdrop-blur-lg p-6 rounded-3xl shadow-lg border-4 border-red-700 transition-transform transform hover:scale-[1.02] duration-300">
+    <video autoplay loop muted playsinline class="w-full h-60 object-cover rounded-3xl mb-4">
+      <source src="./video/Black Bold Fashion Video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div class="text-xl text-white p-2 bg-red-600 w-70 rounded-full font-bold mb-2">
+      <h3 class="ml-4">Fashion template</h3>
+    </div>
+    <p class="text-white text-lg leading-relaxed mb-4">
+        This Fashion template base in 
+        <span class="inline-block bg-orange-600 px-3 py-1 rounded-full text-sm font-semibold mx-1 shadow-md">html</span>,
+        <span class="inline-block bg-blue-600 px-3 py-1 rounded-full text-sm font-semibold mx-1 shadow-md">css</span>, and
+        <span class="inline-block bg-yellow-500 px-3 py-1 rounded-full text-sm font-semibold mx-1 shadow-md">javascript</span>.
+      </p>
+    <a href="https://luffythecap.github.io/soulblaze/index.html" class="inline-block bg-red-700 text-white px-5 py-2 rounded-full font-semibold hover:bg-red-800 transition duration-300">
+      Live Demo
+    </a>
+  </div>
+
+  <!-- Vision Card -->
+  <div class="bg-white/30 backdrop-blur-lg p-6 rounded-3xl shadow-lg border-4 border-red-700 transition-transform transform hover:scale-[1.02] duration-300">
+    <video autoplay loop muted playsinline class="w-full h-96 object-cover rounded-3xl mb-4">
+      <source src="./video/Blue Modern Thank You For Watching Health Video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div class="text-xl text-white p-2 bg-red-600 w-50 rounded-full font-bold mb-2">
+      <h3 class="ml-4">hospital template</h3>
+    </div>
+    <p class="text-white text-lg leading-relaxed mb-4">
+        This hospital webpage base on 
+        <span class="inline-block bg-orange-600 px-3 py-1 rounded-full text-sm font-semibold mx-1 shadow-md">html</span>,
+        <span class="inline-block bg-blue-600 px-3 py-1 rounded-full text-sm font-semibold mx-1 shadow-md">css</span>, and
+        <span class="inline-block bg-yellow-500 px-3 py-1 rounded-full text-sm font-semibold mx-1 shadow-md">javascript</span>.
+      </p>
+    <a href="https://luffythecap.github.io/surjicare/" class="inline-block bg-red-700 text-white px-5 py-2 rounded-full font-semibold hover:bg-red-800 transition duration-300">
+      Live Demo
+    </a>
+  </div>
+
+  <!-- Goal Card -->
+  <div class="bg-white/30 backdrop-blur-lg p-6 rounded-3xl shadow-lg border-4 border-red-700 transition-transform transform hover:scale-[1.02] duration-300">
+    <video autoplay loop muted playsinline class="w-full h-72 object-cover rounded-3xl mb-4">
+      <source src="./video/Orange and Teal Casual Corporate Financial Advisor Finance LinkedIn Video Ad.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div class="text-xl text-white p-2 bg-red-600 w-40 rounded-full font-bold mb-2">
+      <h3 class="ml-4">Our Goal</h3>
+    </div>
+    <p class="text-white mb-4">To empower businesses with technology-driven solutions that enhance productivity and growth.</p>
+    <a href="https://luffythecap.github.io/sajanant/" class="inline-block bg-red-700 text-white px-5 py-2 rounded-full font-semibold hover:bg-red-800 transition duration-300">
+      Live Demo
+    </a>
+  </div>
+</div>
+
+
+            
+  </section>
+
+</body>
+</html>
